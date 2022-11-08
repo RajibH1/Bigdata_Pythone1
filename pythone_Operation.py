@@ -38,3 +38,46 @@ print("mul_str str = ", mul_str)
  # multipli numeric string
 mul_num_str = "rajib" * 5
 print("mul_num_str str = ", mul_num_str)
+
+# Assingment operation 
+
+#  = , x = 5
+#  += , x += 5 --> x = x + 5
+#  -= , x -= 5 --> x = x - 5
+#  *= , x *= 5 --> x = x * 5
+#  /= , x /= 5 --> x = x / 5
+#  //= , x //= 5 --> x = x // 5
+#  %= , x %= 5 --> x = x % 5
+
+
+# Comparison Operation ( we compare operands vales)
+# == , Equal to condition, x == y
+# != , Not Equal to condition, x != y
+# < , Less than condition, x < y
+# > , grater than condition, x > y
+# >= , Less than Equel to condition, x >= y
+# => , Grater than Equel to condition, x => y
+
+a = 10
+b = 5
+print ("Result of a == b, ", a == b)
+print ("Result of a != b, ", a != b)
+print ("Result of a > b, ", a > b)
+print ("Result of a < b, ", a < b)
+print ("Result of a >= b, ", a >= b)
+print ("Result of a <= b, ", a <= b)
+
+
+# logical operation in python ( Logical check will happen for expression result)
+# and -> Returns true if both statements are true  
+# or -> Returns true if one of statement are true
+# not -> Reverse the result, returns false if the result is true
+
+
+m = 10
+n = 8
+print('m>10 and n<10', m>10 and n<10) # False and True -> False
+
+print('m>10 or n<10', m>10 or n<10)  # False and True -> True
+
+print('m>20 and n<10', m>20 and n<10)  # False and True -> False
